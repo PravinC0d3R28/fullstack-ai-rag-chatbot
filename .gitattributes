@@ -1,0 +1,26 @@
+# Auto detect text files and perform line ending normalization
+* text=auto
+
+# Explicitly declare text files that should always use LF
+*.py text eol=lf
+*.tsx text eol=lf
+*.ts text eol=lf
+*.js text eol=lf
+*.jsx text eol=lf
+*.json text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+Dockerfile text eol=lf
+.gitignore text eol=lf
+
+# Declare binary files that should not be modified
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.docx binary 

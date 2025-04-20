@@ -13,8 +13,8 @@ RUN apt-get update && apt-get install -y \
 # Set working directory
 WORKDIR /app
 
-# Copy backend requirements and install
-COPY api/requirements.txt ./
+# Copy root requirements and install
+COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Install additional required packages if they're not already in requirements.txt
